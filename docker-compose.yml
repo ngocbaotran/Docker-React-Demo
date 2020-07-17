@@ -1,0 +1,24 @@
+version: "3"
+
+services:
+  react-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    working_dir: /app/public
+    volumes:
+      - .:/app/public
+      - ./src:/app/public/src
+    environment:
+      PORT: 3000
+    stdin_open: true
+    ports:
+      - 8090:3000
+    command: /bin/sh -c "npm start"
+    networks:
+      - app_net
+
+networks:
+  app_net:
+    driver: bridge

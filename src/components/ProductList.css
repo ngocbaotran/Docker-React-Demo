@@ -1,0 +1,33 @@
+.ProductList-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.SideBar {
+    flex: 20%;
+}
+
+.ProductList-main {
+    flex: 80%;
+}
+
+.ProductList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em;
+}
+
+.pagination {
+    justify-content: flex-end;
+}
+
+.pagination p {
+    margin: 15px;
+}
+
+.pagination .btn {
+    border-radius: unset;
+    padding: 5px;
+    height: 45px;
+}

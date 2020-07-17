@@ -1,0 +1,231 @@
+.ProductDetail {
+    display: flex;
+    border-radius: 3px;
+    margin-bottom: 1.2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.24);
+}
+
+.ProductDetail .ProductDetailGallery {
+    width: 100%;
+    max-width: 33%;
+    padding: 1.2rem;
+    border-right: 1px solid #e8e8e8;
+}
+
+.ProductDetail .ProductDetailInfo {
+    width: 100%;
+}
+
+.ProductDetail .ProductDetailInfo .mainInfo {
+    padding: 0 1.2rem;
+}
+
+.ProductDetail .ProductDetailInfo .contentBox {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+.ProductDetail .ProductDetailInfo .hrDotted {
+    border-bottom: 1px dotted #e8e8e8;
+}
+
+.ProductDetail .ProductDetailInfo .mainInfo .breadcrumb {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    min-height: 1.6rem;
+}
+
+.ProductDetail .ProductDetailInfo .mainInfo .item {
+    display: inline-block;
+    font-size: 1.1rem;
+    white-space: nowrap;
+}
+
+.ProductDetail .ProductDetailInfo .mainInfo .item+.item:before {
+    content: ">";
+    padding: 0 .6rem;
+    font-size: 1.1rem;
+    display: inline-block;
+    color: #646464;
+}
+
+.ProductDetail .ProductDetailInfo .mainInfo .text {
+    display: inline-block;
+    color: #646464;
+}
+
+.ProductDetail .ProductDetailInfo .mainInfo .productNameWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.ProductDetail .ProductDetailInfo .productNameWrapper .productName {
+    padding-top: .3rem;
+    font-size: 2rem;
+    min-height: 2.7rem;
+}
+
+.ProductDetail .ProductDetailInfo .basicInfo {
+    min-height: 25rem;
+}
+
+.ProductDetail .ProductDetailInfo .basicInfo .priceBox {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.ProductDetail .ProductDetailInfo .priceBox .price {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.ProductDetail .ProductDetailInfo .priceBox .currentPrice {
+    font-size: 2rem;
+    color: #e5101d;
+    margin-right: .6rem;
+}
+
+.ProductDetail .ProductDetailInfo .priceBox .oldPrice {
+    color: #828282;
+    text-decoration: line-through;
+    font-size: 1.6rem;
+    font-style: normal;
+}
+
+.discountLabelGroup, .ratingBox_2riQ {
+    display: flex;
+}
+
+.ProductDetail .ProductDetailInfo .ProductOptions {
+    display: flex;
+    align-items: center;
+    margin-bottom: .6rem;
+}
+
+.ProductDetail .ProductDetailInfo .ProductOptions .dataTitle {
+    display: inline-block;
+    flex: 0 0 12rem;
+    max-width: 12rem;
+    padding-right: 1.2rem;
+}
+
+.ProductDetail .ProductDetailInfo .ProductOptions .colorOption {
+    background-image: url(https://media3.scdn.vn/img4/2020/03_24/Ax1MCkLIkgL1JauZgnNL_simg_02d57e_50x50_maxb.jpg);
+    background-size: cover;
+    width: 4.8rem;
+    height: 4.8rem;
+    margin-bottom: .6rem;
+    margin-right: .6rem;
+    border-radius: 5px;
+    border: .2rem solid #e8e8e8;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.ProductDetail .ProductDetailInfo .ProductOptions .colorOption.active {
+    border-color: #e5101d;
+}
+
+.ProductDetail .ProductDetailInfo .ProductOptions .textOption.isDisabled {
+    opacity: .2;
+    cursor: pointer;
+}
+
+.ProductDetail .ProductDetailInfo .ProductOptions .textOption {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.4rem;
+    min-width: 4.8rem;
+    padding: 0 1.2rem;
+    margin-right: .6rem;
+    margin-bottom: .6rem;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    background-color: #e9e9e9;
+    text-transform: uppercase;
+}
+
+.ProductDetail .ProductDetailInfo .ProductOptions .qtyInput {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.ProductDetail .ProductDetailInfo .ProductOptions .qtyInput .disabled_3ugQ {
+    opacity: .2;
+}
+
+.ProductDetail .ProductDetailInfo .ProductOptions .qtyInput .btn {
+    background-color: #c7c7cd;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    padding-bottom: 9px;
+}
+
+.ProductDetail .ProductDetailInfo .ProductOptions .qtyInput .input {
+    width: 3.6rem;
+    height: 2.4rem;
+    margin: 0 1.2rem;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    text-align: center;
+    -moz-appearance: textfield;
+}
+
+.ProductDetail .ProductDetailInfo .ProductOptions .qtyInput .quantityRemain {
+    padding-left: 1.2rem;
+    color: #646464;
+}
+
+.ProductDetail .ProductDetailInfo .groupBtnCheckout {
+    margin-bottom: 1.2rem;
+    min-height: 6.4rem;
+}
+
+.ProductDetail .ProductDetailInfo .contentBox18K {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    max-width: fit-content;
+}
+
+.ProductDetail .ProductDetailInfo .groupBtnCheckout .groupBtnInStock {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.ProductDetail .ProductDetailInfo .groupBtnCheckout .btnCheckoutGroup {
+    display: inline-flex;
+    margin-bottom: 1.2rem;
+}
+
+.ProductDetail .ProductDetailInfo .btnCheckoutGroup .btn {
+    border-radius: 3px;
+    height: 4rem;
+    color: #fff;
+    background-color: #e5101d;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.ProductDetail .ProductDetailInfo .btnCheckoutGroup .addToCart {
+    min-width: 20rem;
+    background-color: #f7941d;
+}
+
+.ProductDetail .ProductDetailInfo .btnCheckoutGroup .buyNow {
+    min-width: 25rem;
+}
+
+.ProductDetail .ProductDetailInfo .groupBtnCheckout button+button {
+    margin-left: 1.2rem;
+}

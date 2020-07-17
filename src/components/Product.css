@@ -1,0 +1,31 @@
+.Product-container {
+  text-align: center;
+  width: 24%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  margin: 0 10px 10px 0;
+}
+
+.Product-container h4 {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.Product-container h4 {
+  font-size: 14px;
+}
+
+.Product-container:hover {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.2);
+}
+
+.Product-price {
+  font-size: 14px;
+  font-weight: bold;
+  color: red;
+}
+
+.Product-avatar {
+  width: 100%;
+  height: auto;
+}

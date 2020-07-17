@@ -1,0 +1,29 @@
+.SideBar {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 1px 9px 0 rgba(0,0,0,.2);
+    padding: 10px;
+}
+
+.SideBar h6 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.SideBar .filter-group {
+    border-bottom: 1px solid #e8e8e8;
+    padding: 10px 0;
+}
+
+.SideBar .filter-group .price-row input {
+    display: inline-block;
+    float: left;
+    width: 30%;
+}
+
+.SideBar .filter-group .price-row input {
+    margin-right: 10px;
+}
+
+.SideBar .filter-group .price-row button {
+    padding: 2px 15px;
+}
